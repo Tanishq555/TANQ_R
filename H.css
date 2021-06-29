@@ -1,0 +1,55 @@
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#Logo{
+margin: -34px ;
+
+
+}
+
+#Logo img{
+    margin: 0px 26px;
+    height: 200px;
+}
+
+#navbar ul{
+    display: flex;
+
+}
+
+#navbar::before{
+    content: "";
+    background-color: rgba(224, 102, 1, 0.808);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+  
+
+}
+
+#navbar ul li{
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1,3rem;
+
+
+}
+
+#navbar ul li a{
+    padding: 80px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+
+
+}
