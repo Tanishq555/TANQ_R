@@ -21,7 +21,7 @@ margin: -34px ;
 
 #navbar::before{
     content: "";
-    background-color: rgba(224, 102, 1, 0.808);
+    background-color: rgba(224, 102, 1, 0.3);
     position: absolute;
     height: 100%;
     width: 100%;
